@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Respondr</title>
+  <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+  <div id="map"></div>
+  <div id="Note" style="color: #98a3b2;">
+    Note: ⏳ Data is loading... Please wait a minute or two before searching.
+  </div>
+  <div id="dataNote" style="color: #98a3b2;">
+     Note: ⚠️ Some years may have no results due to limited satellite data, especially before 2015.
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Select a Disaster</button>
+    <div class="dropdown-content">
+      <a href="#" id="wildfire-link">Wildfires Events</a>
+      <a href="#" id="volcano-link">Volcanic Events</a>
+      <a href="#" id="ice-link">Ice Events</a>
+      <a href="#" id="flood-link">Flood Events</a>
+      <a href="#" id="storm-link">Storm Events</a>
+      <a href="#" id="snow-link">Snow Events</a>
+      <a href="#" id="quake-link">Earthquake Events</a>
+    </div>
+  </div>
+
+  <div class="header">
+    <h1 id="title" class="animate__animated animate__bounce">Respondr</h1>
+
+    <div class="search-bar">
+      
+      <input type="text" id="yearSearch" placeholder="Select Year of Disaster" autocomplete="on" type="submit"  >
+      <button id="searchBtn"  onclick="disasters()">Search</button><br>
+    </div>
+    <button id="donate" href="#">Relief</button>
+
+
+  </div>
+
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="backend.js"></script>
+</body>
+</html>

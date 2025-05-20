@@ -1,0 +1,181 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #0F1115;
+    font-family: 'Poppins';
+} 
+
+@media (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 60px 10px 10px;
+    position: relative;
+    left: auto;
+    top: auto;
+    width: auto;
+    gap: 8px;
+  }
+
+  #map {
+    margin: 5% 5%;
+    height: 60%;
+  }
+
+  #yearSearch {
+    padding-right: 20px;
+    padding-left: 10px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .dropdown {
+    left: auto;
+    bottom: auto;
+    right: 0;
+  }
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #1E2A38;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 69%;
+    bottom: 82%;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1E2A38;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: white;
+    padding: 5px 12px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #0F1115;
+    transition: background-color 0.45s;
+    border-radius: 10px;
+}
+  
+.dropdown:hover .dropdown-content { display: block; }
+  
+.dropdown:hover .dropbtn {
+    background-color: #0F1115;
+    transition: background-color 0.5s;
+}
+
+#map {
+    height: 75%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50px;
+    border: 4px black;
+}
+
+#Note, #dataNote {
+    font-family: "Poppins";
+    margin: 10px auto;
+    width: fit-content;
+    color: #98a3b2;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+#marker {
+    height: 100%;
+}
+
+.custom-marker {
+    cursor: pointer;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1E2A38;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+#title {
+    padding-left: 20px;
+    display: inline;
+    font-family: 'Poppins';
+    transition: color 0.5s;
+}
+
+#title:hover {
+    color: #98a3b2;
+    cursor: pointer;
+}
+
+
+#searchBtn, #donate {
+    padding: 10px 15px 10px;
+    font-size: 0.8rem;
+    color: #98a3b2;
+    border-radius: 10px;
+    border: solid 1.5px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, font-size 0.5s;
+}
+
+#searchBtn:hover, #donate:hover {
+    background-color: #1E2A38;
+}
+
+.search-bar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 700px; /* Controls how wide it can grow */
+  padding: 0 10px;
+  z-index: 999;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#yearSearch {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px;
+  min-width: 100px;
+}
+
+#donate {
+    position: relative;
+    left: 83%;
+    top: 10%;
+    color: #994d4d;
+}
