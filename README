@@ -1,0 +1,24 @@
+# DisasterMap
+
+**DisasterMap** is an interactive web application that visualizes natural disasters on a map. 
+Designed for public awareness, research, and emergency preparedness, 
+it allows users to explore geospatial disaster data through a streamlined, responsive interface.
+
+## Live Demo
+
+Coming soon: [your-live-url-here]
+
+## Features
+
+- Map-based visualization of disaster events
+- Year-based search functionality
+- Responsive layout optimized for desktop and mobile
+- Custom markers to represent disaster types
+- Clean user interface using modern web design principles
+
+## Technologies Used
+
+- HTML, CSS, JavaScript
+- Mapiibre GL js for map rendering
+- Google Fonts (Poppins)
+- Optional integration with disaster data APIs (e.g., USGS, NASA EONET)
