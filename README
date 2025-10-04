@@ -1,24 +1,26 @@
 # Respondr - Natural Disaster Visualization
 
-Respondr is an interactive web application that visualizes natural disasters on a map. 
-Designed for public awareness, research, and emergency preparedness, 
+Respondr is an interactive web application that visualizes natural disasters on a map.
+Designed for public awareness, research, and emergency preparedness,
 it allows users to explore geospatial disaster data through a streamlined, responsive interface.
 
 ## Screenshots
 
 ### Main Interface
+
 ![Disaster Map Interface](images/screenshot.png)
-*Interactive map showing disaster events with filter options*
+_Interactive map showing disaster events with filter options_
 
 ### Disaster Type Icons
+
 ![Wildfire Icon](images/1F525_color.png) ![Volcano Icon](images/1F30B_color.png) ![Flood Icon](images/1F30A_color.png) ![Storm Icon](images/2614_color.png) ![Snow Icon](images/2603_color.png) ![Ice Icon](images/E2C0_color.png) ![Earthquake Icon](images/1FAA8_color.png)
 
-*Custom disaster type markers used on the map*
+_Custom disaster type markers used on the map_
 
-### Searching For Disasters with Floods in the year 2025.
-![EXAMPLE](images/Capture.png)
-*Optimized interface for mobile devices*
+### Example: Searching For Disasters in 2025
 
+![Example Search](images/Capture.PNG)
+_Example showing flood events search results_
 
 ## Features
 
@@ -47,14 +49,14 @@ it allows users to explore geospatial disaster data through a streamlined, respo
 ## Installation & Setup
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/disaster-map.git
    cd disaster-map
    ```
 
-
-3. Navigate to `http://localhost:8000` in your browser
-4. Get API From `https://www.maptiler.com/`
+2. Navigate to `http://localhost:8000` in your browser
+3. Get API From `https://www.maptiler.com/`
 
 ## Usage
 
