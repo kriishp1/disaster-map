@@ -13,7 +13,7 @@ _Interactive map showing disaster events with filter options_
 
 ### Disaster Type Icons
 
-![Wildfire Icon](images/1F525_color.png) ![Volcano Icon](images/1F30B_color.png) ![Flood Icon](images/1F30A_color.png) ![Storm Icon](images/2614_color.png) ![Snow Icon](images/2603_color.png) ![Ice Icon](images/E2C0_color.png) ![Earthquake Icon](images/1FAA8_color.png)
+<img src="images/1F525_color.png" width="32" height="32" alt="Wildfire Icon"> <img src="images/1F30B_color.png" width="32" height="32" alt="Volcano Icon"> <img src="images/1F30A_color.png" width="32" height="32" alt="Flood Icon"> <img src="images/2614_color.png" width="32" height="32" alt="Storm Icon"> <img src="images/2603_color.png" width="32" height="32" alt="Snow Icon"> <img src="images/E2C0_color.png" width="32" height="32" alt="Ice Icon"> <img src="images/1FAA8_color.png" width="32" height="32" alt="Earthquake Icon">
 
 _Custom disaster type markers used on the map_
 
