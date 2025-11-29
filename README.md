@@ -4,6 +4,11 @@ Respondr is an interactive web application that visualizes natural disasters on 
 Designed for public awareness, research, and emergency preparedness,
 it allows users to explore geospatial disaster data through a streamlined, responsive interface.
 
+## Video Preview
+
+[![Watch the demo](https://img.youtube.com/vi/Sa_V0tjo2j0/0.jpg)](https://youtu.be/Sa_V0tjo2j0)
+
+
 ## Screenshots
 
 ### Main Interface
